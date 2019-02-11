@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Fast University Point Service</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <div class="w3-top">
+      <div class="w3-bar w3-black">
+        <span class="branding w3-bar-item w3-mobile">Fast University Point Service</span>
+        <span class="w3-right w3-mobile">
+          <a class="w3-bar-item w3-button w3-mobile w3-hover-indigo" href="#">Home</a>
+		  <a class="w3-bar-item w3-button w3-mobile w3-hover-indigo" href="#route">Routes</a>
+          <a class="w3-bar-item w3-button w3-mobile w3-hover-indigo" href="#about">About</a>
+          <a class="w3-bar-item w3-button w3-mobile w3-hover-indigo" href="#services">Services</a>
+          <a class="w3-bar-item w3-button w3-mobile w3-hover-indigo" href="#contact">Contact</a>
+        </span>
+      </div>
+    </div>
+
+    <!-- SHOWCASE -->
+    <section class="showcase">
+      <div class="w3-container w3-center">
+        <h1 class="w3-text-shadow w3-animate-opacity">NUCES Fast</h1>
+        <hr>
+        <p class="w3-animate-opacity">Fast's transport system includes students of all areas. Keeping this in mind, we provide transport facilities to our students. The University has its own spacious and air-conditioned buses that run routes covering almost all parts of the city. Students are requested to fill out a Request of Transport Form upon enrolling and prior to the start of the term.</p>
+        <button onclick="document.getElementById('start-modal').style.display='block'" class="w3-button w3-indigo w3-large w3-hover-shadow w3-opacity">Register Here</button>
+      </div>
+    </section>
+
+    <!-- SECTION 1 -->
+    <section class="section w3-indigo w3-hover-opacity">
+      <div class="w3-container w3-center">
+        <i class="fa fa-envelope"></i>
+        <h2>For Details</h2>
+        <p>
+		Director Development and Planning<br/>
+		Transport Office Tahir Mansoor<br/>
+		+92 42 111-865-865, (ext: 1020)<br/>
+		tahir@nu.edu.pk<br/>
+		</p>
+      </div>
+    </section>
+
+    <!-- SECTION 2 -->
+    <section class="section w3-light-grey w3-hover-opacity">
+      <div class="w3-container w3-center">
+        <i class="fa fa-road"></i>
+        <h2>Routes</h2>
+      </div>
+    </section>
+
+	<section id="route" class="section">
+      <div class="w3-container w3-padding">
+	  <div class="w3-content w3-display-container w3-card-4 w3-center" style="max-width:900px">
+
+		<div class="w3-display-container mySlides">
+		  <img src="img/route 1.PNG" style="width:90%">
+		</div>
+
+		<div class="w3-display-container mySlides">
+		  <img src="img/route 2.PNG" style="width:90%">
+		</div>
+		
+		<div class="w3-display-container mySlides">
+		  <img src="img/Route 3.PNG" style="width:90%">
+		</div>
+
+		<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+		<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+		</div>
+        
+      </div>
+    </section>
+	
+	
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="w3-container">
+        <div class="w3-row-padding">
+          <div class="w3-col m5">
+            <img src="img/fleet.jpg">
+          </div>
+          <div class="w3-col m7">
+            <button onclick="accFunction('what')" class="w3-btn-block w3-left-align">
+            Mission Statement</button>
+
+            <div id="what" class="w3-container w3-show">
+              <h3>Transport services' mission statement</h3>
+              <p>The provision of a reliable, cost effective, high quality transport service and vehicle and equipment maintenance facility to NUCES Fast. To offer support, advice and guidance on transport related matters. Included in our objective is the aspiration to identify and develop potential and suitable commercial business opportunities.</p>
+            </div>
+
+            <button onclick="accFunction('who')" class="w3-btn-block w3-left-align">
+            Who are we</button>
+
+            <div id="who" class="w3-container w3-hide">
+              <h3>We Are FAST</h3>
+              <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>-->
+            </div>
+
+            <!--<button onclick="accFunction('where')" class="w3-btn-block w3-left-align">
+            What We Do</button>-->
+
+            <div id="where" class="w3-container w3-hide">
+              <h3>We Are Everywhere</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES HEADING -->
+    <section id="services" class="section w3-indigo w3-hover-opacity">
+      <div class="w3-container w3-center">
+        <h1 class="w3-text-shadow">OUR SERVICES</h1>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section w3-light-grey">
+      <div class="w3-container w3-center">
+        <div class="w3-row">
+          <div class="w3-col m3">
+            <i class="fa fa-wpforms w3-indigo w3-padding-small w3-round-xlarge"></i>
+            <h3>Online registration</h3>
+            <p>Ease of use in registration</p>
+          </div>
+          <div class="w3-col m3">
+            <i class="fa fa-search w3-indigo w3-padding-small w3-round-xlarge"></i>
+            <h3>Search</h3>
+            <p>Search for Routes</p>
+          </div>
+          <div class="w3-col m3">
+            <i class="fa fa-map w3-indigo w3-padding-small w3-round-xlarge"></i>
+            <h3>Coverage</h3>
+            <p>All areas covered</p>
+          </div>
+          <div class="w3-col m3">
+            <i class="fa fa-database w3-indigo w3-padding-small w3-round-xlarge"></i>
+            <h3>Efficient Record Storage</h3>
+            <p>Easy Record Handling</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT HEADING -->
+    <section id="contact" class="section w3-dark-grey w3-hover-opacity">
+      <div class="w3-container w3-center">
+        <h1 class="w3-text-shadow">GET IN TOUCH</h1>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section">
+      <div class="w3-container">
+        <div class="w3-card-4">
+          <div class="w3-container w3-dark-grey">
+            <h2>Contact Us</h2>
+          </div>
+            <form class="w3-container w3-padding-xlarge">
+            <label class="w3-label">Name</label>
+            <input class="w3-input" type="text">
+            <label class="w3-label">Email</label>
+            <input class="w3-input" type="text">
+            <label class="w3-input">Message</label>
+            <textarea class="w3-input w3-border" style="resize:none"></textarea>
+            <br>
+            <button type="submit" class="w3-button">Submit</button>
+            <br><br>
+            </form>
+          </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="w3-black w3-padding-xlarge w3-center">
+      <p>Fast University Point Service &copy; 2018</p>
+    </footer>
+
+    <!-- MODAL -->
+    <div id="start-modal" class="w3-modal">
+      <div class="w3-modal-content w3-animate-top w3-card-4">
+        <header class="w3-container w3-indigo">
+          <span onclick="document.getElementById('start-modal').style.display='none'" class="w3-closebtn">&times;</span>
+          <h2>Registration Form</h2>
+        </header>
+
+        <div class="w3-container">
+          <form action="test1.php" method="post" name="test1">
+            <div class="w3-section">
+              <label>Name</label>
+              <input class="w3-input w3-border w3-margin-bottom" type="text" name="name" placeholder="Enter Full Name">
+              <label>Roll.NO</label>
+              <input class="w3-input w3-border w3-margin-bottom" type="text" name="I_D" placeholder="Enter Roll No">
+              <label>Password</label>
+              <input class="w3-input w3-border w3-margin-bottom" type="password" name="password" placeholder="Enter Password">
+              <label>Enter Address</label>
+              <input class="w3-input w3-border w3-margin-bottom" type="text" name="Address" placeholder="Enter Address">
+			  <label>Enter Route No</label>
+              <input class="w3-input w3-border w3-margin-bottom" type="text" name="RouteNO" placeholder="Enter Route No">
+			  <label>Pickup Location</label>
+              <input class="w3-input w3-border w3-margin-bottom" type="text" name="Pickup_Location" placeholder="Pickup Location">
+			  <label>Mobile No</label>
+              <input class="w3-input w3-border w3-margin-bottom" name="Mobile_NO" type="text" placeholder="Enter Mobile No">
+			  <label>Pay-Order NO</label>
+              <input class="w3-input w3-border w3-margin-bottom" type="text" name="Pay_Order" placeholder="Enter Pay-Order NO">
+			  <label>Email ID</label>
+              <input class="w3-input w3-border w3-margin-bottom" type="text" name="Email_ID" placeholder="Enter email ID">
+              <button class="w3-black w3-btn-block w3-section w3-padding">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script>
+		var slideIndex = 1;
+	showDivs(slideIndex);
+
+	function plusDivs(n) {
+	  showDivs(slideIndex += n);
+	}
+
+	function showDivs(n) {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  if (n > x.length) {slideIndex = 1}    
+	  if (n < 1) {slideIndex = x.length}
+	  for (i = 0; i < x.length; i++) {
+		 x[i].style.display = "none";  
+	  }
+	  x[slideIndex-1].style.display = "block";  
+	}
+	
+      function accFunction(id) {
+          var x = document.getElementById(id);
+          if (x.className.indexOf("w3-show") == -1) {
+              x.className += " w3-show";
+          } else {
+              x.className = x.className.replace(" w3-show", "");
+          }
+      }
+      </script>
+  </body>
+</html>
